@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roll4Play - TTRPG Session Manager</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <!-- Tailwind CSS -->
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+</head>
+
+<body class="bg-gray-50 font-sans">
+
+<!-- Navbar -->
+<header class="bg-blue-600 text-white shadow-md">
+  <div class="max-w-7xl mx-auto px-6 py-4">
+    <div class="flex items-center justify-between">
+      <div class="text-2xl font-semibold">Roll4Play</div>
+      <nav class="space-x-6">
+        <%= link_to "Home", root_path, class: "hover:text-blue-300" %>
+        <%= link_to "About", about_path, class: "hover:text-blue-300" %>
+        <%= link_to "Contact", contact_path, class: "hover:text-blue-300" %>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Hero Section -->
+  <section class="bg-blue-500 text-white py-24">
+    <div class="text-center">
+      <h1 class="text-4xl font-bold mb-6">Welcome to Roll4Play!</h1>
+      <p class="text-xl mb-8">A simple TTRPG session manager for your gaming sessions.</p>
+      <a href="#get-started" class="bg-white text-blue-500 py-2 px-6 rounded-lg text-lg font-semibold hover:bg-gray-100">Get Started</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-semibold mb-6">About Roll4Play</h2>
+      <p class="text-lg mb-8">Roll4Play is a TTRPG session manager that helps you organize and manage your tabletop RPG campaigns with ease. Track players, dice rolls, and more!</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold mb-3">Track Sessions</h3>
+          <p>Manage all your TTRPG sessions in one place, with details for each session, like players, campaigns, and more.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold mb-3">Dice Rolls</h3>
+          <p>Roll dice in real-time with your players and keep track of the results to enhance your gaming experience.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold mb-3">Collaborative Play</h3>
+          <p>Invite players to join your sessions and track progress together, making the game more interactive and fun.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section id="get-started" class="bg-blue-600 text-white py-24">
+    <div class="text-center">
+      <h2 class="text-3xl font-semibold mb-6">Ready to Get Started?</h2>
+      <p class="text-lg mb-8">Sign up now and start managing your TTRPG sessions effortlessly.</p>
+      <a href="#signup" class="bg-white text-blue-500 py-2 px-6 rounded-lg text-lg font-semibold hover:bg-gray-100">Sign Up</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="max-w-7xl mx-auto text-center">
+      <p>&copy; 2025 Roll4Play. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

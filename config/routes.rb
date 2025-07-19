@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # other resources like campaigns, memberships, etc.
   resources :campaigns
   resources :sessions
+  resources :players
 end

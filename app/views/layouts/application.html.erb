@@ -22,9 +22,33 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body class="bg-gray-50 font-sans">
+    <!-- Navbar -->
+    <header class="bg-blue-600 text-white shadow-md">
+      <div class="max-w-7xl mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <div class="text-2xl font-semibold">Roll4Play</div>
+          <nav class="space-x-6">
+            <%= link_to "Home", root_path, class: "hover:text-blue-300" %>
+            <%= link_to "Campaigns", campaigns_path, class: "hover:text-blue-300" %>
+            <%= link_to "Players", players_path, class: "hover:text-blue-300" %>
+            <%= link_to "Sessions", sessions_path, class: "hover:text-blue-300" %>
+            <%= link_to "About", about_path, class: "hover:text-blue-300" %>
+            <%= link_to "Contact", contact_path, class: "hover:text-blue-300" %>
+          </nav>
+        </div>
+      </div>
+    </header>
+
     <main>
       <%= yield %>
     </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="max-w-7xl mx-auto text-center">
+        <p>&copy; 2025 Roll4Play. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>

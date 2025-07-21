@@ -19,5 +19,7 @@
 - [ ] Admins can create a session
 - [ ] Admins can accept user invitations
 - [ ] Admins can delete document and notes to a campaign
+- [ ] Admins can remove users from a campaign
+- [ ] Admins can change user roles in a campaign
 
 **Make sure to create a beta and test / get feedback**

@@ -13,6 +13,7 @@
 - [ ] Users can upload document and notes to a campaign
 - [ ] Users can view their calendar for upcoming sessions
 - [ ] Users can chat in their campaign chat
+- [ ] Users can set their SCHEDULE
 
 # Admin Users:
 - [ ] Admins can create a campaign
@@ -21,5 +22,6 @@
 - [ ] Admins can delete document and notes to a campaign
 - [ ] Admins can remove users from a campaign
 - [ ] Admins can change user roles in a campaign
+- [ ] Admins can create a party (this finds common time based on schedule)
 
 **Make sure to create a beta and test / get feedback**

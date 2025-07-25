@@ -8,7 +8,6 @@
 - [ ] Users can join a session in campaigns they are in
 - [ ] Users can see a list of campaigns
 - [ ] Users can become prenium members
-- [ ] Users can see a list of available campaigns
 - [ ] Users can filter campaigns based on SYSTEM and SCHEDULE
 - [ ] Users can upload document and notes to a campaign
 - [ ] Users can view their calendar for upcoming sessions

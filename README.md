@@ -22,5 +22,6 @@
 - [ ] Admins can remove users from a campaign
 - [ ] Admins can change user roles in a campaign
 - [ ] Admins can create a party (this finds common time based on schedule)
+- [ ] Admins can set campaigns as public or private
 
 **Make sure to create a beta and test / get feedback**
